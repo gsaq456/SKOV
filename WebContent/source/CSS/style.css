@@ -1,0 +1,241 @@
+@charset "UTF-8";
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+
+.page1 header {
+    padding: 108px 0 0px;
+    background-position: center 0;
+}
+
+
+
+header h1 {
+	position: relative;
+    text-align: center;
+    z-index: 999;
+    margin-bottom: 42px;
+}
+
+
+.page1 header h1 a {
+    width: 296px;
+    height: 317px;
+}
+
+.page1 header h1  {
+    margin-bottom: 100px;
+}
+
+
+
+
+.slogan {
+    text-align: center;
+    font: 36px/36px 'Yellowtail', cursive;
+    color: #e7e6d4;
+    padding-bottom: 113px;
+}
+
+.user_info {
+	text-align: right;
+	padding-top: 80px;
+	padding-right: 50px;
+}   
+
+ul {
+    list-style-type : none;
+    margin :   0;
+    padding : 0;
+    overflow : hidden;
+    background-color : #333;
+}
+
+li {
+    float : left;
+    border-right : 1px solid #bbb;
+    
+}
+
+li:last-child {
+    border-right : none;
+}
+
+li a {
+    display : block;
+    color : white;
+    text-align : center;
+    padding : 14px 16px;
+    text-decoration : none;
+}
+
+li a:hover:not(.active) {
+    background-color : #111;
+}
+
+.category {
+	background-color : #4CAF50;
+    padding : 0;
+    
+}
+
+
+[class*="col-"] {float : center;}
+
+/* 메뉴바 부분 */
+.category {width : 24.9%;}
+.advice {width : 24.9%;}
+.freeboard {width : 24.9%;}
+.reportboard {width : 24.9%;}
+
+#blogMenu ul ul{display:none;}
+
+#blogMenu ul li:hover ul {display: block;
+						  width : 24.9%}
+
+#blogMenu ul ul {display:none;
+				 position:absolute;
+				 background-color:#5c5c5c;
+				 z-index: 1;
+				 }
+
+#blogMenu ul li ul li{float:none;}
+
+
+
+
+/* 슬라이드 부분 */
+.mySlides {
+			display:none;
+		  	float:left;
+		  	margin-top: 30px;
+		   }
+
+
+
+/* 동영상 css */
+.youtube{float: right; 
+		margin-top:-249px;
+		margin-right:200px;
+		position: relative;}
+
+/* 네모 4개 css */
+
+.notice {
+	text-align: center;
+	padding-top:300px;
+	padding-left:210px;
+	
+}
+
+.notice .button {
+	padding-right : 35px;
+  	position: relative;
+  	width: 300px;
+  	display: inline-block;
+}
+
+
+.notice .image2 {
+  display: block;
+  width: 50%;
+  height: auto;
+  /* border-radius: 100%; */
+}
+
+.notice .image3 {
+  display: block;
+  width: 100%;
+  height: auto;
+  width: 50%;
+  padding-bottom: 17px;
+  /* border-radius: 100%; */
+}
+
+
+.notice .button:hover .overlay {
+  width: 100%;
+}
+
+
+
+
+
+
+/* 요기부터 */
+
+
+.btn-search{
+    background: #484848;
+    border: none;
+    color: #FFF;
+    padding: 5px 15px;
+}
+
+.input-search{
+   border: none;
+   height: 30px;
+   padding-left: 10px; 
+}
+
+
+
+
+/* profile css */
+.card {
+  max-width: 300px;
+  height:410px;
+  text-align: center;
+  font-family: arial;
+  position: relative;
+  padding-top: 140px;
+  border:solid; 1px; green;
+}
+
+
+
+.profile_btn{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  font-color: white;
+  
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 19px;
+  color: olive;
+}
+
+profile_btn:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+/* 등급 css */
+
+.rank{position:absolute;
+	width:90px;
+	height:90px;
+	margin-top:-31px;
+	margin-left:-60px;
+	}
+	
+	
+	
+	
+	
+/* my page css */
+

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<Context>
+	<Resource 	name = "jdbc/OracleDB"
+				auth = "Container"
+				type = "javax.sql.DataSource"
+				username = "semi"
+				password = "1234"
+				driverClassName = "oracle.jdbc.driver.OracleDriver"
+				factory = "org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+				url = "jdbc:oracle:thin:@localhost:1521:xe"
+				maxActive = "500" 
+				maxIdle = "100"/>
+</Context>
+
+<!-- 최대 동시 접속connection -->
+<!-- 여유로 가질수 있는 connection -->
